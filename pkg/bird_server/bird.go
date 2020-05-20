@@ -20,7 +20,6 @@ func Run(path string){
 	if err := initliaze.Initialize(path);err != nil {
 		panic(err)
 	}
-	fmt.Println("ok")
 	server := &bird_proxy.BirdProxy{
 		Addr:         conf.BirdConf.BirdConfig.Addr,
 		ReadTimeout:  conf.BirdConf.BirdConfig.ReadTimeout,
