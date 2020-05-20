@@ -1,0 +1,19 @@
+[BirdConfig]
+addr           = "www.a.test:9091"
+read_time_out  = 5
+write_time_out = 5
+shutdown_time  = 15
+reload         = 10
+
+
+is_debug       = true
+alarm_url      = ""
+log_level      = "debug"
+log_pah        = "./log/log"
+
+# first conn bird conf
+name           = "admin"
+password       = "admin"
+password_slat  = "Hh11IejGNMDrEtnTJP0ntLLV8NL07l6C8NepMr47c9qcE6fvcDqyXRuVH3Fhhr6b"
+bird_conf_addr = "127.0.0.1:9190"
+
